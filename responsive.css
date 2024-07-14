@@ -1,0 +1,69 @@
+@media (max-width: 480px) {
+   
+    .sidebar {
+        display: none;
+    }
+
+    .trending, .posts-items, .show-posts{
+        display: none;
+    }
+    /* Adjust container width and margins */
+    .container {
+        width: 97vw;
+        margin-left: 0px;
+    }
+    .posts-section{
+        width:100vw;
+        margin-top: 55px;
+    }
+    .posts:last-child {
+        margin-bottom: 30px; 
+    }
+    .main-container{
+        width: 100vw;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+    }
+    .posts-icon i{
+        margin-right: 30px;
+        font-size: 16px;
+    }
+
+    .posts-icon span{
+        width: 45px;
+    }
+    .main-container, .follow-text, .posts, .profile{
+        width: 100vw;
+        border-right: none;
+    }
+    .posts-content p, .posts-icons, .posts-content, .top-details{
+        width: 85vw;
+    }
+    .posts-headings{
+        width:100vw;
+    }
+    .main-items{
+       height: 55px;
+    }
+    .post-picture img {
+        width: 75vw;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        margin-left: 12px;
+    }
+
+    /* Mobile footer styles */
+    .mobile-footer {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background:black ;
+        height: 50px;
+        position: fixed;
+        bottom: 0;
+        padding-left: 27px;
+        padding-right: 27px; 
+    }
+}
